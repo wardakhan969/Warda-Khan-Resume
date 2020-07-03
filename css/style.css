@@ -1,0 +1,226 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    margin: 0px;
+  }
+  
+  /* .headersection {
+    height: 375px;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    width: 100%;
+  }*/
+  
+  .headimg {
+    height: 375px;
+    background-image: url(../images/img.beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .headtxt {
+    position: absolute;
+    top: 10em;
+    left: 30em;
+  }
+  
+  .menu {
+    height: 90px;
+    overflow: hidden;
+    background-color: #E0F7FA;
+    z-index: 3;
+    padding-right: 20px;
+    display: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-flex;
+    padding: 10px 0;
+    margin-right: 100px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+h1{
+  text-align: center;
+  background-color: #B2EBF2;
+}
+
+h3{
+  text-align: center;
+}
+.about-section {
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.exp_section {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: exp_section;
+  margin-top: 20px;
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.exp_section .exp_header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 1px solid transparent;
+}
+
+.exp_section .exp_header h2 {
+  text-align: center;
+  color: #393d47;
+  font-size: 2.2em;
+}
+
+.exp_section .exp_header .underline_sect {
+  border-bottom: 4px solid #57EEA1;
+}
+
+.exp_section .exp_box_main {
+  margin-top: 20px;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 1fr;
+      grid-template-columns: 25% 1fr;
+  grid-gap: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.exp_section .exp_box_main .exp_box_img img {
+  margin-left: 50px;
+  height: 140px;
+  width: 140px;
+}
+
+.exp_section .exp_box_main .exp_box_text {
+  color: #393d47;
+}
+
+.exp_section .exp_box_main .exp_box_text p {
+  margin-left: 20px;
+  font-size: 1em;
+  line-height: 2;
+}
+
+.exp_section .exp_box_main .exp_box_text .job_title {
+  color: ;#00ACC1
+}
+
+.exp_section .exp_title {
+  font-size: 1.2em;
+  margin-top: 0px;
+}
+
+.educ_section {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: educ_section;
+  margin-top: 50px;
+  margin-bottom: 2em;
+}
+
+.educ_section .educ_header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 1px solid transparent;
+}
+
+.educ_section .educ_header h2 {
+  text-align: center;
+  color: #393d47;
+  font-size: 2.2em;
+}
+
+.educ_section .educ_header .underline_sect {
+  border-bottom: 4px solid #57EEA1;
+}
+
+.educ_section .educ_main {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'educ_box1'
+ 'educ_box2';
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 20px;
+  height: 520px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #393d47;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.educ_section .educ_main .educ_box1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: educ_box1;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.educ_section .educ_main .educ_box1 .educ_box1_content h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.educ_section .educ_main .educ_box1 .educ_box1_content p {
+  margin-left: 30px;
+  font-size: 1em;
+  margin-top: 10px;
+  line-height: 25px;
+  word-spacing: 2px;
+}
+
+.educ_section .educ_main .educ_box2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: educ_box2;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.educ_section .educ_main .educ_box2 .educ_box2_content h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.educ_section .educ_main .educ_box2 .educ_box2_content p {
+  margin-left: 30px;
+  font-size: 1em;
+  margin-top: 10px;
+  line-height: 25px;
+  word-spacing: 2px;
+}
+
+.contact_section {
+  display: inline-block;
+  margin: 0 auto;
+
+}
+.contact-image {
+  border-color: azure;
+  border: 5pt; 
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #B2EBF2;
+}
